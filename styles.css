@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+body {
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+h1 {
+    font-family: "Foldit", sans-serif;
+}
+#header {
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 40px;
+}
+#header:hover {
+    font-size: 41px;
+}
+#wip {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 64px;
+}
